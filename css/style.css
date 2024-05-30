@@ -135,6 +135,12 @@
 
    }
 
+   .sectt-l {
+       display: flex;
+       gap: 24px;
+
+   }
+
    .visually-hidden .sect-two {
        font-weight: 500;
        font-size: 20px;
