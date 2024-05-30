@@ -164,7 +164,9 @@
 
    /* SECTION 3 */
    .sect-tree {
-       background-color: #f4f4fd
+       background-color: #f4f4fd;
+       padding: 120px 0 120px;
+
    }
 
    .sect-tree-title {
