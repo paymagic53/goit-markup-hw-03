@@ -119,7 +119,12 @@
    }
 
    /* SECTION 2 */
-   .sect-two {
+   .visually-hidden .sect-t {
+       padding: 120px 0 120px;
+
+   }
+
+   .visually-hidden .sect-two {
        font-weight: 500;
        font-size: 20px;
        line-height: 1.2;
