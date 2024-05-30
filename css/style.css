@@ -119,7 +119,8 @@
    }
 
    /* SECTION 2 */
-   .visually-hidden .sect-t {
+
+   .sect-t {
        padding: 120px 0 120px;
 
    }
