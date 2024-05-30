@@ -201,3 +201,8 @@
        gap: 40px;
 
    }
+
+   .add-list {
+       display: flex;
+       gap: 40px;
+   }
