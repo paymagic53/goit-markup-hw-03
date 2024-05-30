@@ -167,3 +167,12 @@
    .span-logo {
        color: #f4f4fd
    }
+
+   /* HEADER */
+   .head-start {
+       border-bottom: 1px solid #e7e9fc;
+   }
+
+   .head-div {
+       display: flex;
+   }
