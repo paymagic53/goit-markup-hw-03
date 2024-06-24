@@ -133,7 +133,7 @@
    }
 
    .list-one {
-       width: calc((100% - 3 * 24px) / 4);
+       width: calc((100vw - 72px) / 4);
    }
 
    .sect-two {
