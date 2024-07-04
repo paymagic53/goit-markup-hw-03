@@ -259,6 +259,13 @@
 
    }
 
+   .div-four {
+       padding: 32px 16px;
+       border: 1px solid #e7e9fc;
+       border-top: none;
+       margin-bottom: 8px;
+   }
+
    /* HEADER */
    .head-start {
        border-bottom: 1px solid #e7e9fc;
