@@ -296,3 +296,9 @@
        display: flex;
        gap: 40px;
    }
+
+   /* footer */
+   .foot {
+       padding: 100px 0;
+
+   }
