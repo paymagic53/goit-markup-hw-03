@@ -9,6 +9,7 @@ p {
 }
 
 ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
 }
@@ -40,6 +41,17 @@ a {
 
 }
 
+.two {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: black;
+
+}
+
 .head-list {
     font-weight: 500;
     line-height: 1.5;
@@ -62,6 +74,7 @@ a {
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding: 24px 0 24px;
+    display: block;
 }
 
 .link:hover {
@@ -75,6 +88,7 @@ a {
 /* adress */
 .info {
     font-style: normal;
+    margin-left: auto;
 
 }
 
@@ -99,6 +113,7 @@ a {
 
 .head-div {
     display: flex;
+    align-items: center
 }
 
 .container {
@@ -136,7 +151,9 @@ a {
     letter-spacing: 0.02em;
     color: #ffffff;
     max-width: 496px;
-
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 53px;
 }
 
 .sect-button {
@@ -154,6 +171,9 @@ a {
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .sect-button:hover {
@@ -257,6 +277,13 @@ a {
     text-align: center;
 }
 
+.sect-tree-pt {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
 /* FOOTER */
 .foot {
     background-color: #2e2f42
@@ -266,6 +293,7 @@ a {
     line-height: 1.5;
     color: #f4f4fd;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
 
 .spp {
@@ -291,6 +319,13 @@ a {
 
 .sect-four-title {
     margin-bottom: 72px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--navy-blue);
 }
 
 .list-four {
@@ -309,7 +344,7 @@ a {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
+
 }
 
 
@@ -322,4 +357,11 @@ a {
 .logotwo {
     display: inline-block;
     margin-bottom: 16px;
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris);
 }
